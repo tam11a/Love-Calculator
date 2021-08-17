@@ -1,0 +1,46 @@
+.form-app{
+    flex: 0.4;
+}
+
+.hide-div{
+    display: none;
+}
+
+.checkForm{
+    width: 100%;
+    transform: scale(1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.checkForm > input{
+    width: 90%;
+    margin-bottom: 10px;
+    height: 40px;
+    background: transparent;
+    border-bottom: 2px solid #333;
+    color: #333;
+    font-size: 1.1em;
+    text-align: center;
+}
+.checkForm > button{
+    margin-top: 20px;
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    background: #333;
+    color: #fff;
+    z-index: 22;
+}
+.checkForm > button > i.material-icons{
+    font-size: 2.5em;
+}
+
+
+@media only screen and (max-width: 540px) {
+
+    .checkForm{
+        width: 100%;
+        transform: scale(1);
+    }
+}

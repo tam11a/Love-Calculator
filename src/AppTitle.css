@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+.splash-app-splash{
+    flex: 0.6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    transform: scale(0.8);
+}
+
+.splash-app-logo{
+    height: 150px;
+    width: 300px;
+    background: url('statics/meter.png');
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* transform: scale(1.5); */
+}
+.splash-app-name{
+    font-family: 'Beautiful', sans-serif;
+    text-transform: capitalize;
+    font-size: 2.5em;
+    color: #333;
+}
+.splash-app-name span{
+    font-size: 1.3em;
+    text-decoration: none;
+    color: #ff0000;
+}
+
+@media only screen and (max-width: 540px) {
+
+    .splash-app-splash{
+        margin-top: 0;
+        transform: scale(0.7);
+    }
+    
+
+}
